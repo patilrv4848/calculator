@@ -5,10 +5,10 @@ def main():
     print("welcome to the calculator app")
     print("\n select the function") 
     print("1. Add") 
-
     print("2. substract")
     print("3. multiplication")
     print("4. division")
+    print("5.area calulation")
     user_input =input("select the fuction: ")
 
     a=int(input ("value of A : "))
@@ -22,7 +22,9 @@ def main():
         result =do_multi(a,b)
     elif user_input == "4":
         result =do_divsion(a,b)
-    
+    elif user_input == "5":
+        result =calarea(a,b)
+
     print('Result:',result)
 if __name__ == '__main__':
     main()
