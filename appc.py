@@ -1,9 +1,11 @@
 from calcu import do_addition,do_substraction,do_divsion
 from mulc import do_multi
+from arear import calarea
 def main():
     print("welcome to the calculator app")
     print("\n select the function") 
     print("1. Add") 
+
     print("2. substract")
     print("3. multiplication")
     print("4. division")
